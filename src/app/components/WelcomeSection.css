@@ -1,0 +1,7 @@
+.white-radial-fade {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, -0.85) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+}
