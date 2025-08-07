@@ -5,6 +5,7 @@ import SectorsSection from './components/SectorsSection';
 import OufydSection from './components/OufydSection';
 import OufydLanding from './components/OufydLanding';
 import AiDeltaNavbar from './components/AiDeltaNavbar';
+import OurInitiativeSection from './components/OufydLanding/OurInitiativeSection';
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
       <AiDeltaNavbar />
       <main>
         <HeroSection />
+        <OufydSection />
+        <OurInitiativeSection />
         <WelcomeSection />
         <QueenImage />
         <SectorsSection />
-        <OufydSection />
         <OufydLanding />
       </main>
     </>
